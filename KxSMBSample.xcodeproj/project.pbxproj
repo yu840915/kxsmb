@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EAEE1901B96E3500067A390 /* KxSMBProvider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87085FB21705D494009CD258 /* KxSMBProvider.h */; };
 		87085F8D1705D46C009CD258 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87085F8C1705D46C009CD258 /* UIKit.framework */; };
 		87085F8F1705D46C009CD258 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87085F8E1705D46C009CD258 /* Foundation.framework */; };
 		87085F911705D46C009CD258 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87085F901705D46C009CD258 /* CoreGraphics.framework */; };
@@ -39,6 +40,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				2EAEE1901B96E3500067A390 /* KxSMBProvider.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
