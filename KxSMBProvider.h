@@ -138,6 +138,8 @@ typedef void (^KxSMBBlockProgress)(KxSMBItem *item, long transferred);
 
 + (id) sharedSmbProvider;
 
++ (id) renameAtPath:(NSString *)oldPath newPath:(NSString *)newPath;
+
 - (void) fetchAtPath: (NSString *) path block: (KxSMBBlock) block;
 - (id) fetchAtPath: (NSString *) path;
 
